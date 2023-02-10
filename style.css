@@ -1,0 +1,155 @@
+/* container-1----------------------------------- */
+body{
+    border: 3px solid gray;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container-1{
+    display: flex;
+    background-color: rgb(43, 38, 38);
+    margin: 50px 100px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.se-1-text-col{
+    color: white;
+}
+.container-1 h1{
+font-weight: 900;
+font-size: 60px;
+}
+.banner-des{
+    margin-left: 100px;
+}
+.first-banner{
+    height: 100%;
+    width: 100%;
+    margin-left: 120px;
+}
+.link-box{
+    background-color: red;
+    padding: 14px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.link-1{
+    margin-top: 40px;
+}
+/* section-2---------------------------------------------------------------- */
+
+.container-2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.left-part{
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding-top: 100px red;
+}
+.left-nav-white{
+    padding: 5px 10px;
+    background-color: white;
+    text-align: center;
+    width: 230px;
+    margin-left: 7%;
+border-radius: 5px;
+margin-top: 45px;
+
+
+}
+.left-nav-red{
+    padding: 5px 10px;
+    background-color: red;
+    text-align: center;
+    width: 230px;
+    margin-left: 7%;
+border-radius: 5px;
+margin-top: 45px;
+}
+
+
+.right-part{
+    width: 60%;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-left: 20px;
+}
+.blog{
+    border: 2px solid rgb(202, 196, 196);
+    border-radius: 15px;
+}
+.image{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.nav-box{
+    margin-top: 30px;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 5px;
+    display: inline;
+}
+.disc{
+    margin-top: 15px;
+}
+.comment-time{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.number{
+    margin-left: 10px;
+
+}
+.message{
+    margin-left: 35px;
+}
+
+.pk{
+    margin: 0 20px;
+}
+/* section-3 start here------------------------------------------------------- */
+
+.container-3{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    margin-top: 100px;
+
+}
+.last-head{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+hr{
+    width: 80%;
+    align-items: center;
+margin:50px;    
+}
+.link> a{
+    text-decoration: none;
+    color: aliceblue
+;
+
+}
+.link{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.last-link-box{
+    display: flex;
+justify-content: center;
+}
